@@ -1,0 +1,17 @@
+﻿body {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #3498db;
+}
+
+@media (max-width:720px){
+    li{
+        font-size:2em;
+    }
+
+    span{
+        font-size:2em;
+        font-weight:bold;
+    }
+}
