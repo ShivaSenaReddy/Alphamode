@@ -5,6 +5,11 @@
     background-color: #3498db;
 }
 
+#demo {
+    font-size: 2em;
+    color: #ecf0f1
+}
+
 @media (max-width:720px){
     li{
         font-size:2em;
