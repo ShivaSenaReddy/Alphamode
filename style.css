@@ -10,6 +10,11 @@
     color: #ecf0f1
 }
 
+h3{
+    font-size: 2 rem;
+    color:whitesmoke;
+}
+
 @media (max-width:720px){
     li{
         font-size:2em;
