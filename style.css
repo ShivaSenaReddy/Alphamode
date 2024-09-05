@@ -22,7 +22,9 @@ h3 {
   font-size: 2rem;
   color: whitesmoke;
 }
-
+.motive {
+  background-color: aquamarine;
+}
 @media (max-width: 720px) {
   li {
     font-size: 2em;
