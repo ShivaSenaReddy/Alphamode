@@ -1,7 +1,7 @@
 // Set the date we're counting down to
 var countDownDate = new Date("jan 1, 2025 18:40:25").getTime();
 var countDownDate1 = new Date("sep 5,2024 22:00:25").getTime();
-
+let nthDay = document.getElementById("nth-day");
 console.log(countDownDate1);
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -36,4 +36,5 @@ var x = setInterval(function () {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
+  nthDay.innerText = `Day ${days1} is easier than day1`;
 }, 1000);
