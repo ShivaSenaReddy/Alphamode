@@ -1,6 +1,6 @@
 // Set the date we're counting down to
-var countDownDate = new Date("jan 10, 2025 10:40:25").getTime();
-var countDownDate1 = new Date("oct 7,2024 12:00:25").getTime();
+var countDownDate = new Date("jan 21, 2025 10:40:25").getTime();
+var countDownDate1 = new Date("oct 21,2024 15:00:25").getTime();
 let nthDay = document.getElementById("nth-day");
 console.log(countDownDate1);
 // Update the count down every 1 second
