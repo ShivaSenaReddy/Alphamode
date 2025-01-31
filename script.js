@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("march 6, 2025 18:40:25").getTime();
+var countDownDate = new Date("march 3, 2025 18:40:25").getTime();
 var countDownDate1 = new Date("jan 31,2025 18:00:25").getTime();
 let nthDay = document.getElementById("nth-day");
 console.log(countDownDate1);
