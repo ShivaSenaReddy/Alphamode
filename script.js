@@ -1,6 +1,6 @@
 // Set the date we're counting down to
-var countDownDate = new Date("apr 18, 2025 18:40:25").getTime();
-var countDownDate1 = new Date("mar 17,2025 18:00:25").getTime();
+var countDownDate = new Date("apr 19, 2025 18:40:25").getTime();
+var countDownDate1 = new Date("mar 19,2025 18:00:25").getTime();
 let nthDay = document.getElementById("nth-day");
 console.log(countDownDate1);
 // Update the count down every 1 second
@@ -38,10 +38,3 @@ var x = setInterval(function () {
   }
   nthDay.innerText = `Day ${days1} is easier than day1`;
 }, 1000);
-document.addEventListener("DOMContentLoaded", function () {
-  alert(`Dude if you are in Beta mode for one day, you are being in Beta mode for 24hrs.
-            So try to be in Alpha mode only.
-            If you are ever in Beta mode, stay there max for 30mins with a Timer on.
-            Staying in Alpha Mode is better than regret of being in Beta mode for one day.
-            Be an alpha ♾`);
-});
